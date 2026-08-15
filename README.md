@@ -1,5 +1,12 @@
 # Proxmox Virtualization Platform & DNS Infrastructure
 
+> **Portfolio Progression Project**
+>
+> This repository documents an earlier stage of my virtualization and infrastructure engineering work, focused on Proxmox VE, VM deployment, storage design, segmentation, and DNS integration.
+>
+> The current integrated multi-site environment is documented here:
+> [Enterprise-Style Homelab Infrastructure](https://github.com/Shaw4552/homelab-public)
+
 ## Overview
 
 This project documents the design and deployment of a virtualized infrastructure platform using Proxmox VE, including a segmented network architecture and a production-style DNS stack.
@@ -42,7 +49,7 @@ The goal of this environment is to simulate real-world infrastructure practices 
 - Unbound (recursive resolver)
 - Caddy (internal TLS reverse proxy)
 
-### Secondary DNS (High Availability)
+### Secondary DNS Planning
 - Replicated Pi-hole instance
 - Planned synchronization between DNS nodes
 
@@ -93,7 +100,7 @@ The goal of this environment is to simulate real-world infrastructure practices 
 
 ---
 
-## Future Improvements
+## Improvements Identified at This Stage
 
 - Automated configuration deployment (CI/CD for infrastructure)
 - DNS synchronization between nodes
@@ -118,4 +125,4 @@ This project demonstrates:
 - Virtualization and service orchestration
 - Documentation-driven engineering
 
-This is not a lab for experimentation—it is a controlled environment designed to mirror production decision-making.
+This project represents an early effort to apply structured infrastructure design and operational decision-making in a controlled lab environment.
